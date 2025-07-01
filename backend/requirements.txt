@@ -9,3 +9,4 @@ crewai
 python-dotenv
 python-multipart
 bcrypt
+langchain_openai
