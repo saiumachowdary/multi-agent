@@ -1,5 +1,5 @@
 from crewai import Crew, Task
-from app.agents import (
+from agents import (
     prompt_agent, coder_agent, reviewer_agent,
     qa_agent, deployment_agent
 )
