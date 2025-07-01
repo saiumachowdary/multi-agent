@@ -2,8 +2,8 @@ from fastapi import APIRouter, HTTPException, Depends
 from passlib.context import CryptContext
 from jose import jwt, JWTError
 from datetime import datetime, timedelta
-from app.models import UserRegister, UserLogin, Token
-from app.db import users_collection
+from models import UserRegister, UserLogin, Token
+from db import users_collection
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 
 SECRET_KEY = "supersecret"  # Use env var in production!
