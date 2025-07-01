@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Depends, Body
 from fastapi.middleware.cors import CORSMiddleware
-from app.auth import router as auth_router, get_current_user
-from app.workflow import run_step_workflow
+from auth import router as auth_router, get_current_user
+from workflow import run_step_workflow
 
 app = FastAPI()
 
